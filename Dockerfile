@@ -1,5 +1,5 @@
 # renovate: datasource=docker depName=ghcr.io/meshtastic/web
-ARG MESHTASTIC_VERSION=v2.7.1
+ARG MESHTASTIC_VERSION=v2.7.2
 
 FROM ghcr.io/meshtastic/web:${MESHTASTIC_VERSION} AS source
 
